@@ -1,4 +1,4 @@
-package com.example.medic.Models;
+package com.example.SmartLab.Models;
 
 public class UserToken {
     private String token;

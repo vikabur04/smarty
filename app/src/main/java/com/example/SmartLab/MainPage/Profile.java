@@ -1,4 +1,4 @@
-package com.example.medic.MainPage;
+package com.example.SmartLab.MainPage;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.medic.R;
+import com.example.SmartLab.R;
 
 public class Profile extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.example.medic.HelloPage;
+package com.example.SmartLab.HelloPage;
 
 import android.os.Bundle;
 
@@ -11,24 +11,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.example.medic.R;
+import com.example.SmartLab.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link OnboardTwo#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class OnboardTwo extends Fragment {
+
+public class OnboardThree extends Fragment {
 
     private ImageView mImageView;
     private int mImageId;
 
-    public OnboardTwo() {
+    public OnboardThree() {
     }
 
-    // TODO: Rename and change types and number of parameters
-    public static OnboardTwo newInstance(int imageId) {
-        OnboardTwo fragment = new OnboardTwo();
+    public static OnboardThree newInstance(int imageId) {
+        OnboardThree fragment = new OnboardThree();
         Bundle args = new Bundle();
         args.putInt("image_id", imageId);
         fragment.setArguments(args);
@@ -45,8 +40,8 @@ public class OnboardTwo extends Fragment {
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.two, container, false);
-        mImageView = view.findViewById(R.id.imageFrag2);
+        View view = inflater.inflate(R.layout.three, container, false);
+        mImageView = view.findViewById(R.id.imageFrag3);
         mImageView.setImageResource(mImageId);
         return view;
     }

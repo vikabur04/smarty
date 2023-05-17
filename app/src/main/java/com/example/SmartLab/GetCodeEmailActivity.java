@@ -1,4 +1,4 @@
-package com.example.medic;
+package com.example.SmartLab;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.medic.Models.UserToken;
+import com.example.SmartLab.Models.UserToken;
 
 import retrofit2.Call;
 import retrofit2.Callback;

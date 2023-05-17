@@ -1,4 +1,4 @@
-package com.example.medic;
+package com.example.SmartLab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import com.example.medic.MainPage.MainActivity;
+import com.example.SmartLab.MainPage.MainActivity;
 
 public class CreateCard extends AppCompatActivity {
     private Button next;

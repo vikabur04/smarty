@@ -1,6 +1,6 @@
-package com.example.medic;
+package com.example.SmartLab;
 
-import com.example.medic.Models.UserToken;
+import com.example.SmartLab.Models.UserToken;
 
 import retrofit2.Call;
 import retrofit2.Retrofit;

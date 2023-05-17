@@ -1,4 +1,4 @@
-package com.example.medic;
+package com.example.SmartLab;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,8 +12,6 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import com.example.medic.MainPage.MainActivity;
 
 public class CreatePasswordActivity extends AppCompatActivity {
 

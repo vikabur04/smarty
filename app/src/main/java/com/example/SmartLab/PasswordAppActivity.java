@@ -1,4 +1,4 @@
-package com.example.medic;
+package com.example.SmartLab;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.medic.MainPage.MainActivity;
+import com.example.SmartLab.MainPage.MainActivity;
 
 public class PasswordAppActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.medic;
+package com.example.SmartLab;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -8,10 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.example.medic.HelloPage.OnBoardAdapter;
-import com.example.medic.HelloPage.OnboardOne;
-import com.example.medic.HelloPage.OnboardThree;
-import com.example.medic.HelloPage.OnboardTwo;
+import com.example.SmartLab.HelloPage.OnBoardAdapter;
+import com.example.SmartLab.HelloPage.OnboardOne;
+import com.example.SmartLab.HelloPage.OnboardThree;
+import com.example.SmartLab.HelloPage.OnboardTwo;
 
 import java.util.ArrayList;
 import java.util.List;
